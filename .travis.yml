@@ -3,6 +3,12 @@
 
 language: python
 
+env:
+  - TOXENV=py27-win
+  - TOXENV=py27-linux
+  - TOXENV=py34-win
+  - TOXENV=py34-linux
+
 install: pip install tox
 
 script: tox
