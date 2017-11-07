@@ -7,17 +7,17 @@ environment:
       PYTHON_VERSION: '2.7'
       PYTHON: C:\Miniconda36-x64
 
-    #- TESTENV: 'py27-32'
-    #  PYTHON_VERSION: '2.7'
-    #  PYTHON: C:\Miniconda36
+    - TESTENV: 'py27-32'
+      PYTHON_VERSION: '2.7'
+      PYTHON: C:\Miniconda36
 
-    #- TESTENV: 'py36-64'
-    #  PYTHON_VERSION: '3.4'
-    #  PYTHON: C:\Miniconda36-x64
+    - TESTENV: 'py36-64'
+      PYTHON_VERSION: '3.4'
+      PYTHON: C:\Miniconda36-x64
 
-    #- TESTENV: 'py36-32'
-    #  PYTHON_VERSION: '3.4'
-    #  PYTHON: C:\Miniconda36
+    - TESTENV: 'py36-32'
+      PYTHON_VERSION: '3.4'
+      PYTHON: C:\Miniconda36
 
 #init:
 install:
