@@ -15,15 +15,15 @@ environment:
       PYTHON_VERSION: '2.7'
       MINICONDA_HOME: C:\Miniconda
 
-    - TESTENV: 'py34-64'
+    - TESTENV: 'py36-64'
       INSTALL_LIBPYTHON: libpython
       PYTHON_VERSION: '3.4'
-      MINICONDA_HOME: C:\Miniconda3-x64
+      MINICONDA_HOME: C:\Miniconda36-x64
 
-    - TESTENV: 'py34-32'
+    - TESTENV: 'py36-32'
       INSTALL_LIBPYTHON: libpython
       PYTHON_VERSION: '3.4'
-      MINICONDA_HOME: C:\Miniconda3
+      MINICONDA_HOME: C:\Miniconda36
 
 init:
   - ps: echo $env:TESTENV
