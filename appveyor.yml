@@ -5,7 +5,6 @@ environment:
   #global:
   #  WITH_COMPILER: 'cmd /E:ON /V:ON /C .\ci\appveyor-with-compiler.cmd'
   matrix:
-    fast_finish: true
     - TESTENV: 'py27-64'
       INSTALL_LIBPYTHON: libpython
       PYTHON_VERSION: '2.7'
