@@ -9,4 +9,4 @@ def test_success():
 
 
 def test_foo():
-    assert sample.foo()[1] == 1
+    assert sample.foo(0)[1] == 1
