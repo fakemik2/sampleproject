@@ -1,18 +1,32 @@
 # this file is *not* meant to cover or endorse the use of travis, but rather to
 # help confirm pull requests to this project.
 
-language: python
 
 matrix:
     include:
         - os: linux
           env: TOXENV=py27
+          language: python
         - os: linux
           env: TOXENV=py34
+          language: python
+
         - os: osx
           env: TOXENV=py27
+          language: generic
+          before_install:
+            - brew update
+            - brew install python
+            - virtualenv env -p python
+            - source env/bin/activate
         - os: osx
           env: TOXENV=py34
+          language: generic
+          before_install:
+            - brew update
+            - brew install python3
+            - virtualenv env -p python3
+            - source env/bin/activate
 
 install: pip install tox
 
