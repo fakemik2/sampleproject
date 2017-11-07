@@ -3,6 +3,7 @@
 
 
 matrix:
+    fast_finish: true
     include:
         - os: linux
           env: TOXENV=py27
@@ -11,6 +12,7 @@ matrix:
           env: TOXENV=py34
           language: python
 
+    allow_failures:
         - os: osx
           env: TOXENV=py27
           language: generic
@@ -27,6 +29,8 @@ matrix:
             - brew install python3
             - virtualenv env -p python3
             - source env/bin/activate
+      
+
 
 install: pip install tox
 
