@@ -3,8 +3,10 @@
 # setup.py that excludes installing the "tests" package
 import sample
 
+
 def test_success():
     assert True
 
+
 def test_foo():
-    assert sample.foo()[1]==1
+    assert sample.foo()[1] == 1
