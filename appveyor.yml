@@ -8,12 +8,12 @@ environment:
     - TESTENV: 'py27-64'
       INSTALL_LIBPYTHON: libpython
       PYTHON_VERSION: '2.7'
-      MINICONDA_HOME: C:\Miniconda-x64
+      MINICONDA_HOME: C:\Miniconda36-x64
 
     - TESTENV: 'py27-32'
       INSTALL_LIBPYTHON: libpython
       PYTHON_VERSION: '2.7'
-      MINICONDA_HOME: C:\Miniconda
+      MINICONDA_HOME: C:\Miniconda36
 
     - TESTENV: 'py36-64'
       INSTALL_LIBPYTHON: libpython
