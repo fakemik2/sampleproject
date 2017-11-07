@@ -32,8 +32,8 @@ setup(
     url='https://github.com/fakemik2/sampleproject',
 
     # Author details
-    #author='The Python Packaging Authority',
-    #author_email='pypa-dev@googlegroups.com',
+    author='fakemik',
+    author_email='fakemik2@gmail.com',
 
     # Choose your license
     license='MIT',
