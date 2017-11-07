@@ -26,6 +26,7 @@ may be appropriate.
 
 
 Badges:
+
 .. image:: https://requires.io/github/fakemik2/sampleproject/requirements.svg?branch=master
      :target: https://requires.io/github/fakemik2/sampleproject/requirements/?branch=master
      :alt: Requirements Status
