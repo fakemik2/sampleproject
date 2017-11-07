@@ -20,10 +20,10 @@ matrix:
           language: generic
           before_install:
             - brew update
-            - brew install python3.4
-            - virtualenv env -p python3.4
+            - brew install brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/ec545d45d4512ace3570782283df4ecda6bb0044/Formula/python3.rb
+            - virtualenv env -p python3.5
             - source env/bin/activate
-
+ 
     allow_failures:
         - os: osx
           env: TOXENV=py27
