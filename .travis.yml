@@ -9,7 +9,7 @@ matrix:
           language: python
 
 
-install: pip install tox-travis
+install: pip3 install tox-travis
 
 script: tox
 
