@@ -5,9 +5,10 @@
 matrix:
     fast_finish: true
     include:
-          env: TOXENV=py36
           language: python
-
+          python:
+            - "2.7"
+            - "3.6"
 
 install: pip install tox-travis
 
