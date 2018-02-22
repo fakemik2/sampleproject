@@ -2,13 +2,10 @@
 # help confirm pull requests to this project.
 
 
-matrix:
-    fast_finish: true
-    include:
-          language: python
-          python:
-            - "2.7"
-            - "3.6"
+language: python
+python:
+  - "2.7"
+  - "3.6"
 
 install: pip install tox-travis
 
